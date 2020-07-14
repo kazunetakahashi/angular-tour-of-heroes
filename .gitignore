@@ -44,3 +44,28 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+### ignored files in my environment ###
+
+# Ignore other unneeded files.
+*.swp
+.project
+.DS_Store
+.idea
+.secret
+*.icloud
+
+# Ignore Emacs' temp files.
+\#*\#
+.\#*
+*~
+._*
+*_flymake.*
+
+# Ignore given input/output files in contests.
+*.in
+*.out
+
+# Ignore VSCode LaTeX Workshop's temp file.
+__latexindent_temp.tex
+.vscode/*
